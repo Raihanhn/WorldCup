@@ -10,10 +10,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Navbarku = () => {
   return (
-    <div>
+    <div className='navbar-bg'>
       <Navbar bg="info" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">World Cup</Navbar.Brand>
+        <Navbar.Brand className='navbar-brand' href="#">World Cup</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -21,10 +21,10 @@ const Navbarku = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Services</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
-            <Nav.Link href="#action2">Contact</Nav.Link>
+            <Nav.Link className='two' href="#action1">Home</Nav.Link>
+            <Nav.Link className='two' href="#action2">Services</Nav.Link>
+            <Nav.Link className='two' href="#action2">About</Nav.Link>
+            <Nav.Link className='two' href="#action2">Contact</Nav.Link>
           
           </Nav>
           <Form className="d-flex">
@@ -34,7 +34,7 @@ const Navbarku = () => {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button className='btn' variant="outline-success">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
