@@ -3,14 +3,19 @@ import Header from './components/Header';
 import Navbarku from './components/Navbarku';
 
 
+
+
+
 function App() {
 
   return (
-    <>
-     <Navbarku/>
-     <Header/>
-   
-    </>
+    <div className="App">
+       <Navbarku/>
+      <Header/>
+      
+    
+    </div> 
+    
   )
 }
 

@@ -8,7 +8,7 @@
 }
 
 :root{
-    --bgcolor: #f1f5fd;
+    --bgcolor: #8a1538;
     --primary-color: #6f5de7;
     --text-color: #828286;
     --main-text-color:#333333;
@@ -34,6 +34,8 @@ h1,h2,h3,h4,h5,h6{
     z-index: 99;
     position: relative;
 }
+
+
 
 .navbar-brand{
     font-size: 2.5rem;
@@ -68,6 +70,18 @@ h1,h2,h3,h4,h5,h6{
     background-image: url("./assets/img/banner.jpg");
     background-position: bottom;
     background-size: cover;
+}
+
+.btns{
+    margin-left: 65.5rem;
+    padding: 0 4rem;
+    border: none;
+    border-radius: 10rem;
+    text-align: center;
+    margin-top: 35rem;
+    background: #6f5de7;
+    color: #fff;
+    font-size: 1.7rem;
 }
 
 

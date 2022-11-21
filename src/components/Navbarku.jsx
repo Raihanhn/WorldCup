@@ -11,7 +11,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const Navbarku = () => {
   return (
     <div className='navbar-bg'>
-      <Navbar bg="info" expand="lg">
+      <Navbar bg='info' expand="lg">
       <Container fluid>
         <Navbar.Brand className='navbar-brand' href="#">World Cup</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -24,6 +24,7 @@ const Navbarku = () => {
             <Nav.Link className='two' href="#action1">Home</Nav.Link>
             <Nav.Link className='two' href="#action2">Services</Nav.Link>
             <Nav.Link className='two' href="#action2">About</Nav.Link>
+            <Nav.Link className='two' href="#action2">Venue</Nav.Link>
             <Nav.Link className='two' href="#action2">Contact</Nav.Link>
           
           </Nav>
