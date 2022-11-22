@@ -63,13 +63,13 @@ body{
     color: var(--black);
 }
 
-.header .navbar a{
+.header .navbar li{
     font-size: 1.7rem;
     margin: 0 1rem;
     color: var(--black);
 }
 
-.header .navbar a:hover{
+.header .navbar li:hover{
     color: var(--red);
 }
 
