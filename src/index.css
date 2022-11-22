@@ -63,14 +63,51 @@ body{
     color: var(--black);
 }
 
-.header .navbar li{
+.header .navbar ul li{
     font-size: 1.7rem;
     margin: 0 1rem;
     color: var(--black);
 }
 
-.header .navbar li:hover{
+.header .navbar ul  li:hover{
     color: var(--red);
 }
 
 /* ----------------------Navbar End---------------------- */
+
+
+.homes{
+    margin-top: 20rem;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.features{
+    margin-top: 20rem;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.productss{
+    margin-top: 20rem;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.categoriess{
+    margin-top: 20rem;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.reviews{
+    margin-top: 20rem;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.blogss{
+    margin-top: 20rem;
+    font-size: 10rem;
+    text-align: center;
+}

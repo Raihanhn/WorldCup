@@ -2,7 +2,9 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div>Features</div>
+    <div className='features'>
+      ami hocci features
+    </div>
   )
 }
 
