@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 *{
     margin: 0;
@@ -9,118 +9,68 @@
 
 :root{
     --bgcolor: #8a1538;
-    --primary-color: #6f5de7;
-    --text-color: #828286;
-    --main-text-color:#333333;
-    --secondary-color:#f1f1f1;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(39, 14, 182, 0.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black);
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
 }
 
 html{
     font-size: 62.5%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
 }
 
-a{
-    text-decoration: none;
-    color: #fff;
+body{
+    background: #eee;
 }
 
-h1,h2,h3,h4,h5,h6{
-    color: #333333;
+/* -------------------Navbar Start------------------ */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 9%;
+    background: #fff;
+    box-shadow: var(--box-shadow);
 }
 
-/* -----------------------Navbar css style---------------------------- */
-
-.navbar-bg{
-    z-index: 99;
-    position: relative;
-}
-
-
-
-.navbar-brand{
+.header .logo{
     font-size: 2.5rem;
-    color:#f1f1f1;
-    font-weight: bold;
+    font-weight: bolder;
+    color: var(--black);
 }
 
-.two{
+.header .navbar a{
     font-size: 1.7rem;
-    font-weight: 300;
+    margin: 0 1rem;
+    color: var(--black);
 }
 
-.two:hover{
-    color: #f1f1f1;
+.header .navbar a:hover{
+    color: var(--red);
 }
 
-.btn{
-    font-size: 1.7rem;
-    font-weight: 200;
-}
-
-.me-2{
-    font-size: 1.5rem;
-    font-weight: 100;
-}
-
-/* -------------header----------------- */
-
-.header-content{
-    width: 100%;
-    height: 100vh;
-    background-image: url("./assets/img/banner.jpg");
-    background-position: bottom;
-    background-size: cover;
-}
-
-.btns{
-    margin-left: 65.5rem;
-    padding: 0 4rem;
-    border: none;
-    border-radius: 10rem;
-    text-align: center;
-    margin-top: 35rem;
-    background: #6f5de7;
-    color: #fff;
-    font-size: 1.7rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* -------responsive media queries------ */
-
-@media (min-width:1500px) {
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl,
-    .container-xxl {
-     max-width: 1500px !important;
-    }
-}
-
-@media (min-width:1400px) {
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl,
-    .container-xxl {
-     max-width: 1400px !important;
-    }
-}
+/* ----------------------Navbar End---------------------- */

@@ -1,18 +1,12 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
-import Navbarku from './components/Navbarku';
-
-
-
+import React from "react"
+import Header from "./components/Header"
 
 
 function App() {
 
   return (
     <div className="App">
-       <Navbarku/>
       <Header/>
-      
     
     </div> 
     
