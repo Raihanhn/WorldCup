@@ -8,6 +8,7 @@
 }
 
 :root{
+    --dx-color: red;
     --bgcolor: #8a1538;
     --black:#130f40;
     --light-color:#666;
@@ -63,15 +64,33 @@ body{
     color: var(--black);
 }
 
-.header .navbar ul li{
+.navbar ul li{
+    display: inline-block;
+    line-height: 2rem ;
+    margin: 0 1rem;
+    font-size: 1.7rem;
+}
+
+.navbar ul li .right{
+    color: rgb(24, 180, 32);
+}
+
+.navbar ul li .right:hover{
+    color: var(--dx-color);
+}
+
+
+/* .header .navbar .lovely{
     font-size: 1.7rem;
     margin: 0 1rem;
     color: var(--black);
+    list-style: none;
+    display: flex;
 }
 
-.header .navbar ul  li:hover{
-    color: var(--red);
-}
+.header .navbar .lovely:hover{
+    color: var(--dx-color);
+} */
 
 /* ----------------------Navbar End---------------------- */
 
