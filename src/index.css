@@ -80,19 +80,202 @@ body{
 }
 
 
-/* .header .navbar .lovely{
-    font-size: 1.7rem;
-    margin: 0 1rem;
-    color: var(--black);
-    list-style: none;
+/* ----------------------Navbar End---------------------- */
+
+
+/* ---------------HEADER SEARCH START------------------- */
+
+.containers{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.header .navbar .lovely:hover{
-    color: var(--dx-color);
-} */
+.searchbars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
-/* ----------------------Navbar End---------------------- */
+.input{
+    padding: 10px;
+    border: 5px;
+    background-color: #28c442;
+    top: 0;
+    right: 10px;
+    width: 20px;
+    transition: 0.4s ease;
+    color: #fff;
+}
+
+.btns{
+    position: absolute;
+    right: 8%;
+    cursor: pointer;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 2rem;
+    margin-right: .3rem;
+    text-align: center;
+}
+
+.btnss{
+    position: absolute;
+    right: 4%;
+    cursor: pointer;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 2rem;
+    margin-right: .3rem;
+    text-align: center;
+}
+
+.input.active{
+    width: 300px;
+}
+
+.input.active.input::placeholder{
+    color: #fff;
+}
+
+input::placeholder{
+    color: transparent;
+}
+
+.input:focus{
+    outline: none;
+}
+
+/* ---------------HEADER SEARCH END------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .homes{
@@ -130,6 +313,80 @@ body{
     font-size: 10rem;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* --------------- SEARCH START------------------- */
@@ -196,281 +453,6 @@ input::placeholder{
 
 
 
-
-
-/* --------------- SEARCH END------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* --------------- SEARCH START------------------- */
-
-.containers{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.searchbars{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.input{
-    padding: 10px;
-    border: 5px;
-    background-color: #28c442;
-    top: 0;
-    right: 10px;
-    width: 20px;
-    transition: 0.4s ease;
-    color: #fff;
-}
-
-.btns{
-    position: absolute;
-    top: 10vw;
-    left: 60%;
-    font-size: 20px;
-    color: rgb(231, 25, 25);
-    cursor: pointer;
-    background-color: orchid;
-    padding: .5vw;
-}
-
-.input.active{
-    width: 300px;
-}
-
-.input.active.input::placeholder{
-    color: #fff;
-}
-
-input::placeholder{
-    color: transparent;
-}
-
-.input:focus{
-    outline: none;
-}
 
 
 /* --------------- SEARCH END------------------- */
