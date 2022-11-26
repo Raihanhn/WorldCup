@@ -183,6 +183,10 @@ input::placeholder{
         display: inline-block;
     }
 
+    .responsive_nav{
+        transform: none;
+    }
+
    
   
     .navbar{
