@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, {useRef} from 'react'
 import { Link } from "react-router-dom";
 import { useEffect, useState } from 'react'
 import { BsSearch } from 'react-icons/bs';
@@ -6,10 +6,8 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Header = () => {
 
-  const navRef = useRef();
-  const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
-  }
+  const [show,setShow] = useState(false);
+
 
   const [active,setActive] = useState(false);
   const input= React.useRef();
@@ -20,8 +18,8 @@ const Header = () => {
   return (
     <header className="header">
     <a href="#" className='logo'> World Cup </a>
-    <nav ref={navRef} className="navbar">
-        <ul>
+    <nav className= "navbar">
+        <ul className={show ? "rilo" : "ul"}>
         <li><Link className='right' to="/">home</Link></li>
         <li><Link className='right' to="/features">features</Link></li>
         <li><Link className='right' to="/products">products</Link></li>
@@ -38,7 +36,7 @@ const Header = () => {
         </div>
         <button className='btns' onClick={()=>setActive(!active)}> <BsSearch/></button>
 
-        <button className='menu-btn' onClick={showNavbar}> <GiHamburgerMenu/> </button>
+        <button className='menu-btn' onClick={()=>setShow(!show)}> <GiHamburgerMenu/> </button>
         </div>
     
 </header>

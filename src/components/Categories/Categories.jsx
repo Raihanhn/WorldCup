@@ -3,7 +3,7 @@ import React from 'react'
 const Categories = () => {
   return (
     <div className='categoriess'>
-        Amar onk onk chintabavna
+        Amar onk onk iccha
     </div>
   )
 }
