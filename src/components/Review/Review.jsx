@@ -4,7 +4,7 @@ const Review = () => {
 
   return (
     <div className='reviews'>
-        Argentina hari gece
+        Adsfg ikdf ioffiod
     </div>
   )
 }

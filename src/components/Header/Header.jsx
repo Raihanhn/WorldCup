@@ -33,7 +33,7 @@ const Header = () => {
         </div>
         <button className='btns' onClick={()=>setActive(!active)}> <BsSearch/></button>
 
-        <button className='btnss'> <GiHamburgerMenu/> </button>
+        <button className='menu-btn'> <GiHamburgerMenu/> </button>
         </div>
     
 </header>
