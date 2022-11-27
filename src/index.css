@@ -160,6 +160,65 @@ input::placeholder{
 /* ---------------HEADER SEARCH END------------------- */
 
 
+/* ---------------HOME START----------------------------------- */
+
+section{
+    padding: 2rem 9%;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./assets/img/qatari.png) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 60rem;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border: .2rem solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+}
+
+
+
+
+/* ---------------HOME END----------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------------media query start----------------------------- */
 
 
@@ -172,9 +231,9 @@ input::placeholder{
     .header{
         padding: 2rem;
     }  
-    /* section{
+    section{
     padding: 2rem;
-}    */
+}   
 }
 
 
