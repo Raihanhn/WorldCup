@@ -174,19 +174,46 @@ section{
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
-    padding-bottom: 60rem;
+    padding-bottom: 25rem;
 }
 
-.btn{
+.home .content{
+    text-align: center;
+    width: 60rem;
+}
+
+.home .content h3{
+    color: #fff;
+    font-size: 3rem;
+}
+
+.home .content h3 span{
+    color: var(--bgcolor);
+    
+}
+
+.home .content p{
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.mybtn{
     margin-top: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
     font-size: 1.7rem;
     border-radius: .5rem;
-    border: .2rem solid var(--black);
-    color: var(--black);
+    border: .2rem solid #fff;
+    color: #fff;
     cursor: pointer;
     background: none;
+}
+
+.mybtn:hover{
+    background: var(--bgcolor);
+    color: #fff;
 }
 
 
