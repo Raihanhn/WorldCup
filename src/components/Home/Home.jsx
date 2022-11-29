@@ -1,9 +1,11 @@
-import React from 'react'
-import img1 from "../../assets/img/pic-1.png"
-import img2 from "../../assets/img/pic-2.png"
-import img3 from "../../assets/img/pic-3.png"
+import React, { useState }  from 'react'
+import category from './category'
+
 
 const Home = () => {
+
+  const [data, setData] = useState(category);
+
   return (
     <div className="akeel">
     <section className="home">
@@ -19,26 +21,21 @@ const Home = () => {
 
       <div className="box-container">
 
-        <div className="box">
-          <img src={img1} alt="" />
-          <h3>fresh and organic</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, debitis!</p>
-          <a href="#" className='mybtn'>read more</a>
-        </div>
 
-        <div className="box">
-          <img src={img2} alt="" />
-          <h3>fresh and organic</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, debitis!</p>
-          <a href="#" className='mybtn'>read more</a>
-        </div>
+      {data.map((values) =>{
+                const {id, title, desc, bttn, image} = values;
 
-        <div className="box">
-          <img src={img3} alt="" />
-          <h3>fresh and organic</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, debitis!</p>
-          <a href="#" className='mybtn'>read more</a>
-        </div>
+                return (
+                    <>
+                        <div className="box" key={id}>
+                          <img src={image} alt="" />
+                          <h3> {title} </h3>
+                          <p>{desc}</p>
+                          <a href="#" className='mybtn'> {bttn} </a>
+                        </div>
+                    </>
+                )
+            })}
 
       </div>
     </section>
