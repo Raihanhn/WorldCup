@@ -33,13 +33,14 @@
 
 html{
     font-size: 62.5%;
-    overflow: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 }
 
 body{
     background: #eee;
+    width: 100%;
+    min-height: 150vh;
 }
 
 /* -------------------Navbar Start------------------ */
@@ -166,6 +167,22 @@ section{
     padding: 2rem 9%;
 }
 
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--bgcolor);
+}
+
+.heading span{
+    background: var(--bgcolor);
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
 .home{
     display: flex;
     align-items: center;
@@ -214,6 +231,45 @@ section{
 .mybtn:hover{
     background: var(--bgcolor);
     color: #fff;
+}
+
+.countries .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.countries .box-container .box{
+    padding: 3rem 2rem;
+    background: var(--bgcolor);
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+
+.countries .box-container .box:hover{
+    
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.countries .box-container .box img{
+    margin: 1rem 0;
+    height: 15rem;
+}
+
+.countries .box-container .box h3{
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.countries .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: var(--light-color);
+    padding: 1rem 0;
 }
 
 
