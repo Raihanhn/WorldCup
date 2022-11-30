@@ -17,10 +17,9 @@ const Home = () => {
     </section>
 
     <section className="countries">
-      <h1 className="heading">worldcup <span>countries</span></h1>
+      <h1 className="heading">world cup <span>countries</span></h1>
 
       <div className="box-container">
-
 
       {data.map((values) =>{
                 const {id, title, desc, bttn, image} = values;
@@ -36,8 +35,11 @@ const Home = () => {
                     </>
                 )
             })}
-
       </div>
+    </section>
+
+    <section className="favourite">
+      <h1 className="heading">Hot<span>Favourite</span>Teams</h1>
     </section>
 
 
