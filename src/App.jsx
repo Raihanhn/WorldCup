@@ -3,6 +3,7 @@ import {BrowserRouter as Router,Route, Routes} from "react-router-dom"
 import Blogs from "./components/Blogs/Blogs"
 import Categories from "./components/Categories/Categories"
 import Features from "./components/Features/Features"
+import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
 import Home from "./components/Home/Home"
 import Products from "./components/Products/Products"
@@ -23,6 +24,7 @@ function App() {
       <Route  path="/review" element={<Review/>} />
       <Route  path="/blogs" element={<Blogs/>} />
      </Routes>
+     <Footer/>
     </Router> 
     
   )

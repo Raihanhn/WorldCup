@@ -273,7 +273,6 @@ section{
     padding: 1rem 0;
 }
 
-
 .favourite .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -313,10 +312,89 @@ section{
     padding: .5rem 0;
 }
 
-
-
-
 /* ---------------HOME END----------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------FOOTER START----------------------------------- */
+
+.footer{
+    background: var(--bgcolor);
+}
+
+.footer .box-container{
+      display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem; 
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .links{
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box p{
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .links {
+    color: #fff;
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover{
+    padding-right: 2rem;
+}
+
+
+.footer .box-container .box .share a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: .5rem;
+    font-size: 2.8rem;
+    color: var(--bgcolor);
+    margin-left: .4rem;
+    background: #eee;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover{
+    background: var(--orange);
+    color: #fff;
+}
+
+.footer .box-container .box .email{
+    width: 100%;
+    margin: .7rem 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color: var(--bgcolor);
+    text-transform: none;
+}
+
+
+/* -------------------------------FOOTER END----------------------------------- */
 
 
 

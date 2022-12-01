@@ -3,7 +3,8 @@ import React from 'react'
 const Features = () => {
   return (
     <div className='features'>
-      ami hocci features
+      YULI IS YOUR FRIEND 
+      
     </div>
   )
 }
