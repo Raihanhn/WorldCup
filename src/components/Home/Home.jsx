@@ -1,10 +1,13 @@
 import React, { useState }  from 'react'
 import category from './category'
+import hot from './Hot'
+
 
 
 const Home = () => {
 
   const [data, setData] = useState(category);
+  const [datas, setDatas] = useState(hot);
 
   return (
     <div className="akeel">
@@ -40,6 +43,29 @@ const Home = () => {
 
     <section className="favourite">
       <h1 className="heading">Hot<span>Favourite</span>Teams</h1>
+      <div className="box-container">
+
+
+
+
+      {datas.map((value) =>{
+                const {idea, title, desc, bttn, image} = value;
+
+                return (
+                    <>
+                        <div className="box" key={idea}>
+                          <img src={image} alt="" />
+                         <div className="content">
+                         <h3> {title} </h3>
+                          <p>{desc}</p>
+                          <a href="#" className='mybtn'> {bttn} </a>
+                         </div>
+                        </div>
+                    </>
+                )
+            })}
+
+      </div>
     </section>
 
 

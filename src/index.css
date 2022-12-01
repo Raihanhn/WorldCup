@@ -274,6 +274,46 @@ section{
 }
 
 
+.favourite .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.favourite .box-container .box{
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    background: var(--bgcolor);
+}
+
+.favourite .box-container .box img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.favourite .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.favourite .box-container .box .content h3{
+    line-height: 1.8rem;
+    color: #fff;
+    font-size: 2.2rem;
+    padding: .5rem 0;
+}
+
+
+.favourite .box-container .box .content p{
+    line-height: 1.8rem;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
+
+
 
 
 /* ---------------HOME END----------------------------------- */
