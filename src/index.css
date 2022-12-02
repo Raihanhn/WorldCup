@@ -317,6 +317,55 @@ section{
 
 
 
+/* ----------------------------------FEATURES START----------------------------------- */
+
+/* .features .box-container{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130rem, 1fr));
+}
+
+.features .box-container .boxs{
+    padding: 1rem 1rem;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+}
+
+.features .box-container .boxs img{
+    height: 35rem;
+    width: 100%;
+    object-fit: cover;
+} */
+
+.qatarflag{
+    margin-top: 6rem;
+    height: 35rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+/* -------------------------------FEATURES END----------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -624,17 +673,7 @@ section{
 
 
 
-.homes{
-    margin-top: 20rem;
-    font-size: 10rem;
-    text-align: center;
-}
 
-.features{
-    margin-top: 20rem;
-    font-size: 10rem;
-    text-align: center;
-}
 
 .productss{
     margin-top: 20rem;
