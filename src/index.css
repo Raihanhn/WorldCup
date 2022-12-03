@@ -317,26 +317,35 @@ section{
 
 
 
+
+
+
+
+
+
+
+
+
 /* ----------------------------------FEATURES START----------------------------------- */
 
-/* .features .box-container{
-    margin-top: 4rem;
+.features .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
 }
 
 .features .box-container .boxs{
-    padding: 1rem 1rem;
-    outline: var(--outline);
-    outline-offset: -1rem;
-    text-align: center;
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    background: var(--bgcolor);
 }
 
 .features .box-container .boxs img{
-    height: 35rem;
+    height: 110rem;
     width: 100%;
     object-fit: cover;
-} */
+}
 
 .qatarflag{
     margin-top: 6rem;
@@ -372,6 +381,39 @@ section{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------------------FOOTER START----------------------------------- */
 
 .footer{
@@ -379,7 +421,7 @@ section{
 }
 
 .footer .box-container{
-      display: grid;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem; 
 }
