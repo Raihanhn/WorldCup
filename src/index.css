@@ -347,6 +347,25 @@ section{
     object-fit: cover;
 }
 
+.feature-card .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.feature-card .box-container .boxs{
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    background: var(--bgcolor);
+}
+
+.feature-card .box-container .boxs img{
+    height: 130rem;
+    width: 100%;
+    object-fit: cover;
+}
+
 .qatarflag{
     margin-top: 6rem;
     height: 35rem;
