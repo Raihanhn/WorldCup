@@ -342,7 +342,6 @@ section{
 }
 
 .features .box-container .boxs img{
-    height: 110rem;
     width: 100%;
     object-fit: cover;
 }
@@ -361,7 +360,6 @@ section{
 }
 
 .feature-card .box-container .boxs img{
-    height: 130rem;
     width: 100%;
     object-fit: cover;
 }
@@ -373,14 +371,25 @@ section{
     object-fit: cover;
 }
 
-
-
-
-
 /* -------------------------------FEATURES END----------------------------------- */
 
 
+/* --------------------------------------PRODUCTS START------------------------ */
 
+.qatarflags{
+    margin-top: 6rem;
+    height: 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+/* --------------------------------------PRODUCTS END------------------------ */
 
 
 
