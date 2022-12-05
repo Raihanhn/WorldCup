@@ -44,7 +44,7 @@ body{
     min-height: 150vh;
 }
 
-/* -------------------Navbar Start------------------ */
+/* ----------------------------------------Navbar Start------------------------------- */
 
 .header{
     position: fixed;
@@ -82,10 +82,10 @@ body{
 }
 
 
-/* ----------------------Navbar End---------------------- */
+/* ----------------------------------Navbar End-------------------------------------- */
 
 
-/* ---------------HEADER SEARCH START------------------- */
+/* -----------------------------HEADER SEARCH START------------------------------------- */
 
 .containers{
     display: flex;
@@ -159,10 +159,10 @@ input::placeholder{
     outline: none;
 }
 
-/* ---------------HEADER SEARCH END------------------- */
+/* --------------------------------HEADER SEARCH END------------------------------------ */
 
 
-/* ---------------HOME START----------------------------------- */
+/* --------------------------------------HOME START----------------------------------- */
 
 section{
     padding: 2rem 9%;
@@ -312,16 +312,7 @@ section{
     padding: .5rem 0;
 }
 
-/* ---------------HOME END----------------------------------- */
-
-
-
-
-
-
-
-
-
+/* -----------------------------------HOME END----------------------------------- */
 
 
 
@@ -378,9 +369,64 @@ section{
 
 .qatarflags{
     margin-top: 6rem;
-    height: 45rem;
     width: 100%;
     object-fit: cover;
+}
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap:1.5rem;
+}
+
+.products .box-container .box{
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    outline-offset: -1rem;
+    text-align: center;
+}
+
+.products .box-container .box:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+    
+}
+
+.products .box-container .box img{
+    margin: 1rem 0;
+    height: 15rem;
+}
+
+.products .box-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    line-height: 1.8;
+}
+
+.products .box-container .box p{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.mybtns{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border: .2rem solid var(--bgcolor);
+    color: var(--bgcolor);
+    cursor: pointer;
+    background: none;
+}
+
+.mybtns:hover{
+    background: var(--bgcolor);
+    color: #fff;
 }
 
 
@@ -745,11 +791,7 @@ section{
 
 
 
-.productss{
-    margin-top: 20rem;
-    font-size: 10rem;
-    text-align: center;
-}
+
 
 .categoriess{
     margin-top: 20rem;
