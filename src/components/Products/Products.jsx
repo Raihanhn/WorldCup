@@ -12,7 +12,7 @@ const Products = () => {
       <img src={img} alt="" className='qatarflags' />
 
         <section className="products">
-         <h1 className="heading">product<span>categories</span></h1>
+         <h1 className="heading">best<span>products</span></h1>
 
          <div className="box-container">
 
