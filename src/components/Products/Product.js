@@ -18,6 +18,16 @@ import img17 from "../../assets/products/p17.jpg"
 import img18 from "../../assets/products/p18.jpg"
 import img19 from "../../assets/products/p19.jpg"
 import img20 from "../../assets/products/p20.jpg"
+import img21 from "../../assets/products/p21.jpg"
+import img22 from "../../assets/products/p22.jpg"
+import img23 from "../../assets/products/p23.jpg"
+import img24 from "../../assets/products/p24.jpg"
+import img25 from "../../assets/products/p25.jpg"
+import img26 from "../../assets/products/p26.jpg"
+import img27 from "../../assets/products/p27.jpg"
+import img28 from "../../assets/products/p28.jpg"
+import img29 from "../../assets/products/p29.jpg"
+import img30 from "../../assets/products/p30.jpg"
 
 
 
@@ -161,6 +171,76 @@ const Product = [
         desc:"upto 30% off",
         bttn :"read more",
         image:img20
+    },
+    {
+        id:21,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"shop now",
+        image:img21
+    },
+    {
+        id:22,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"shop now",
+        image:img22
+    },
+    {
+        id:23,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"shop now",
+        image:img23
+    },
+    {
+        id:24,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"read more",
+        image:img24
+    },
+    {
+        id:25,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"shop now",
+        image:img25
+    },
+    {
+        id:26,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"shop now",
+        image:img26
+    },
+    {
+        id:27,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"shop now",
+        image:img27
+    },
+    {
+        id:28,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"read more",
+        image:img28
+    },
+    {
+        id:29,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"shop now",
+        image:img29
+    },
+    {
+        id:30,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"shop now",
+        image:img30
     }
    
  ]
