@@ -28,6 +28,8 @@ import img27 from "../../assets/products/p27.jpg"
 import img28 from "../../assets/products/p28.jpg"
 import img29 from "../../assets/products/p29.jpg"
 import img30 from "../../assets/products/p30.jpg"
+import img31 from "../../assets/products/p31.jpg"
+import img32 from "../../assets/products/p32.jpg"
 
 
 
@@ -241,6 +243,20 @@ const Product = [
         desc:"upto 30% off",
         bttn :"shop now",
         image:img30
+    },
+    {
+        id:31,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"shop now",
+        image:img31
+    },
+    {
+        id:32,
+        title:"football jersey",
+        desc:"upto 30% off",
+        bttn :"shop now",
+        image:img32
     }
    
  ]
