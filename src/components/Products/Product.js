@@ -59,7 +59,7 @@ const Product = [
         id:4,
         title:"football jersey",
         desc:"upto 30% off",
-        bttn :"read more",
+        bttn :"shop now",
         image:img4
     },
     {
@@ -87,7 +87,7 @@ const Product = [
         id:8,
         title:"football jersey",
         desc:"upto 30% off",
-        bttn :"read more",
+        bttn :"shop now",
         image:img8
     },
     {
@@ -115,7 +115,7 @@ const Product = [
         id:12,
         title:"football jersey",
         desc:"upto 30% off",
-        bttn :"read more",
+        bttn :"shop now",
         image:img12
     },
     {
@@ -143,7 +143,7 @@ const Product = [
         id:16,
         title:"football jersey",
         desc:"upto 30% off",
-        bttn :"read more",
+        bttn :"shop now",
         image:img16
     },
     {
@@ -171,7 +171,7 @@ const Product = [
         id:20,
         title:"football jersey",
         desc:"upto 30% off",
-        bttn :"read more",
+        bttn :"shop now",
         image:img20
     },
     {
@@ -199,7 +199,7 @@ const Product = [
         id:24,
         title:"football jersey",
         desc:"upto 30% off",
-        bttn :"read more",
+        bttn :"shop now",
         image:img24
     },
     {
@@ -227,7 +227,7 @@ const Product = [
         id:28,
         title:"football jersey",
         desc:"upto 30% off",
-        bttn :"read more",
+        bttn :"shop now",
         image:img28
     },
     {
