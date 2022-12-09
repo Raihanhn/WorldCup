@@ -5,6 +5,7 @@ import jersey from "./jersey"
 import phant from "./phant"
 import socks from "./socks"
 import boots from "./boots"
+import football from "./football"
 
 const Categories = () => {
 
@@ -12,6 +13,7 @@ const Categories = () => {
   const [datta, setDatta] = useState(phant);
   const [dataa, setDataa] = useState(socks);
   const [daata, setDaata] = useState(boots);
+  const [ddata, setDdata] = useState(football);
 
 
   return (
@@ -39,7 +41,6 @@ const Categories = () => {
           })}
 
          </div>
-
       </section>
 
       <section className="categories">
@@ -63,7 +64,6 @@ const Categories = () => {
           })}
 
          </div>
-
       </section>
 
       <section className="categories">
@@ -87,7 +87,6 @@ const Categories = () => {
           })}
 
          </div>
-
       </section>
 
       
@@ -112,7 +111,29 @@ const Categories = () => {
           })}
 
          </div>
+      </section>
 
+      <section className="categories">
+          <h1 className="heading"><span>football</span></h1>
+
+          <div className="box-container">
+
+         {ddata.map((value) =>{
+            const {id, title, desc, bttn, image} = value;
+
+          return (
+              <>
+                  <div className="box" key={id}>
+                    <img src={image} alt="" />
+                   <h3> {title} </h3>
+                    <p>{desc}</p>
+                    <a href="#" className='mybtns'> {bttn} </a>
+                  </div>
+              </>
+            )
+          })}
+
+         </div>
       </section>
 
 
