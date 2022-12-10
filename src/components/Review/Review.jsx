@@ -4,7 +4,18 @@ const Review = () => {
 
   return (
     <div className='reviews'>
-        Adsfg ikdf ioffiod
+       <section className="reviews">
+        <h1 className="heading">customer <span>reviews</span></h1>
+        <div className="box-container">
+          world cup
+        </div>
+
+        <div className="box-container">
+          world cup
+        </div>
+
+        
+       </section>
     </div>
   )
 }
