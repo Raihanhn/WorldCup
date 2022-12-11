@@ -549,17 +549,29 @@ section{
     font-size: 1.7rem;
 }
 
-
-
-
-
-
-
 /* ---------------------------------------------REVIEW END--------------------------- */
 
 
 
 
+/* ---------------------------------------------BLOGS START--------------------------- */
+
+.blogimg{
+    height: 60rem;
+    margin-top: 6rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.topline{
+    text-align: center;
+    position: absolute;
+    font-size: 5rem;
+    position: absolute;
+    top: 15rem;
+    right: 30rem;
+    color: #fff;
+}
 
 
 
@@ -570,37 +582,7 @@ section{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ---------------------------------------------BLOGS END--------------------------- */
 
 
 
@@ -680,23 +662,6 @@ section{
 
 
 /* -------------------------------FOOTER END----------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -796,216 +761,6 @@ section{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.categoriess{
-    margin-top: 20rem;
-    font-size: 10rem;
-    text-align: center;
-}
-
-.reviews{
-    margin-top: 20rem;
-    font-size: 10rem;
-    text-align: center;
-}
-
-.blogss{
-    margin-top: 20rem;
-    font-size: 10rem;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* --------------- SEARCH START------------------- */
 
 .container{
@@ -1018,7 +773,8 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: absolute;
+    top: 30rem;
 }
 
 .input{
