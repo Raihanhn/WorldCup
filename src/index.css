@@ -509,9 +509,44 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
     gap:1.5rem;
-    background-color: #28c442;
+    background-color: #fff;
 }
 
+.reviews .box-container .box{
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    outline-offset: -1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #8a1538;
+}
+
+.reviews .box-container .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin-right: -2rem;
+    
+}
+
+.reviews .box-container .box p{
+  
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+
+.reviews .box-container .box h3{
+    margin-top: -2rem;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.reviews .box-container .box .stars{
+    color: orange;
+    font-size: 1.7rem;
+}
 
 
 
