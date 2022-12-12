@@ -1,12 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 const Blogs = () => {
-  const [active,setActive] = useState(false);
-  const input= React.useRef();
-  useEffect(() =>{
-     if(active) input.current.focus();
-  }, [active] );
-
 
   return (
     <div className='blog'>
@@ -19,13 +13,10 @@ const Blogs = () => {
           <a href="#" className='mybtn'>Read more</a>
         </div>
       </section>
- 
-      <div className="container">
-        <div className="searchbar">
-          <input type="search" placeholder='search here...'  ref={input} className={active?'input active':'input'} />
-          <button className='btn' onClick={()=>setActive(!active)}>search</button>
-        </div>
-       </div>
+
+      <section className="blog-img">
+      <h1 className="heading">qatar <span>beautiful</span> places</h1>
+      </section>
 
     </div>
   )
