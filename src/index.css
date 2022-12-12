@@ -556,25 +556,59 @@ section{
 
 /* ---------------------------------------------BLOGS START--------------------------- */
 
-.blogimg{
-    height: 60rem;
-    margin-top: 6rem;
-    width: 100%;
-    object-fit: cover;
+section{
+    padding: 2rem 9%;
 }
 
-.topline{
+.blogs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./assets/img/porto.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 25rem;
+}
+
+.blogs .content{
     text-align: center;
-    position: absolute;
-    font-size: 5rem;
-    position: absolute;
-    top: 15rem;
-    right: 30rem;
+    width: 60rem;
+}
+
+.blogs .content h3{
+    color: #fff;
+    font-size: 4.5rem;
+}
+
+.blogs .content h3 span{
+    color: var(--bgcolor);
+    
+}
+
+.blogs .content p{
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.mybtn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border: .2rem solid #fff;
+    color: #fff;
+    cursor: pointer;
+    background: none;
+}
+
+.mybtn:hover{
+    background: var(--bgcolor);
     color: #fff;
 }
-
-
-
 
 
 
