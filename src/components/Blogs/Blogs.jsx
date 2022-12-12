@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from "../../assets/beautiful/place1.jpg"
 
 const Blogs = () => {
 
@@ -16,6 +17,19 @@ const Blogs = () => {
 
       <section className="blog-img">
       <h1 className="heading">qatar <span>beautiful</span> places</h1>
+      <div className="boxer">
+        <img src={img1} alt="" />
+        <h3> qatar beautiful place </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus </p>
+        <a href="#" className='mybtns'> read more </a>
+      </div>
+
+      <div className="boxer">
+        <img src={img1} alt="" />
+        <h3> qatar beautiful place </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus </p>
+        <a href="#" className='mybtns'> read more </a>
+      </div>
       </section>
 
     </div>

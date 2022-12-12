@@ -9,7 +9,7 @@ const Review = () => {
 
   return (
     <div className='reviews'>
-       <section className="reviews">
+       <section className="review">
         <h1 className="heading">customer <span>reviews</span></h1>
         <div className="box-container">
           <div className="box">

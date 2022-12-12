@@ -505,6 +505,16 @@ section{
 
 /* ---------------------------------------------REVIEW START--------------------------- */
 
+.heading{
+    margin-top: 8rem;
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--bgcolor);
+}
+
+
 .reviews .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
@@ -539,7 +549,6 @@ section{
 }
 
 .reviews .box-container .box h3{
-    margin-top: -2rem;
     color: #fff;
     font-size: 2.2rem;
 }
@@ -609,6 +618,45 @@ section{
 .mybtn:hover{
     background: var(--bgcolor);
     color: #fff;
+}
+
+.blog-img{
+    padding: 2rem 9%; 
+}
+
+
+.blog-img .boxer{
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    outline-offset: -1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.blog-img .boxer:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+    
+}
+
+ .blog-img .boxer img{
+    margin: 1rem 0;
+    height: 20rem;
+}
+
+.blog-img .boxer h3{
+    font-size: 2rem;
+    color: var(--black);
+    line-height: 1.8;
+}
+
+.blog-img .boxer p{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
 }
 
 
