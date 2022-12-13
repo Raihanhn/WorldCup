@@ -16,11 +16,12 @@ const Footer = () => {
             <h3> world cup </h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, quos.</p>
             <div className="share">
-                <a href="#"> <AiFillFacebook className='loki'/> </a>
-                <a href="#"> <AiFillTwitterSquare className='loki'/> </a>
-                <a href="#"> <AiFillInstagram className='loki'/> </a>
-                <a href="#"> <AiFillLinkedin className='loki'/> </a>
+                <a href="#"> <AiFillFacebook/> </a>
+                <a href="#"> <AiFillTwitterSquare /> </a>
+                <a href="#"> <AiFillInstagram /> </a>
+                <a href="#"> <AiFillLinkedin /> </a>
             </div>
+            <p>all right reserved ! <br/> <strong>created by mohammad Raihan</strong> </p>
         </div> 
         
        <div class="box">

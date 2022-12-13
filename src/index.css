@@ -720,10 +720,10 @@ section{
     width: 4rem;
     line-height: 4rem;
     border-radius: .5rem;
-    font-size: 2.8rem;
-    color: var(--bgcolor);
+    font-size: 3.5rem;
+    color: #fff;
     margin-left: .4rem;
-    background: #eee;
+    background: var(--bgcolor);
     text-align: center;
 }
 
@@ -737,7 +737,7 @@ section{
     margin: .7rem 0;
     padding: 1rem;
     border-radius: .5rem;
-    background: #eee;
+    background: #fff;
     font-size: 1.6rem;
     color: var(--bgcolor);
     text-transform: none;
