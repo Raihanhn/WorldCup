@@ -1,7 +1,10 @@
 import React from 'react'
-import img1 from "../../assets/beautiful/place1.jpg"
+import blog from "./blog"
+import { useState } from 'react';
 
 const Blogs = () => {
+
+  const [data, setData] = useState(blog);
 
   return (
     <div className='blog'>
@@ -17,19 +20,22 @@ const Blogs = () => {
 
       <section className="blog-img">
       <h1 className="heading">qatar <span>beautiful</span> places</h1>
-      <div className="boxer">
-        <img src={img1} alt="" />
-        <h3> qatar beautiful place </h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus </p>
-        <a href="#" className='mybtns'> read more </a>
-      </div>
 
-      <div className="boxer">
-        <img src={img1} alt="" />
-        <h3> qatar beautiful place </h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus </p>
-        <a href="#" className='mybtns'> read more </a>
-      </div>
+      {data.map((value) =>{
+                const {id, title, desc, bttn, image} = value;
+
+                return (
+                    <>
+                        <div className="boxer" key={id}>
+                          <img src={image} alt="" />
+                         <h3> {title} </h3>
+                          <p>{desc}</p>
+                          <a href="#" className='mybtns'> {bttn} </a>
+                        </div>
+                    </>
+                )
+            })}
+
       </section>
 
     </div>
