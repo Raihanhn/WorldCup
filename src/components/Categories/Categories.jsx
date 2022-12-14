@@ -91,7 +91,7 @@ const Categories = () => {
 
       
       <section className="categories">
-          <h1 className="heading">football<span>socks</span></h1>
+          <h1 className="heading">football<span>Boots</span></h1>
 
           <div className="box-container">
 
